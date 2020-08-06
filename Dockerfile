@@ -1,5 +1,5 @@
 ARG CUDA_TAG=10.2
-ARG OS_TAG=18.04
+ARG OS_TAG=20.04
 ARG NPROC=1
 FROM alicevision/alicevision-deps:cuda${CUDA_TAG}-ubuntu${OS_TAG}
 LABEL maintainer="herksaw@gmail.com"
